@@ -1,0 +1,49 @@
+.btn {
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn {
+    font-size: 10px; } }
+@media (min-width: 992px) and (max-width: 1200px -1px) {
+  .btn {
+    font-size: 16px; } }
+
+.btn-default {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #e84610;
+  background-color: #fff; }
+
+.btn-unicorn {
+  background-color: pink;
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold; }
+
+.footer {
+  background-color: #000000;
+  color: #ffffff; }
+
+.nav {
+  padding: 30px;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.about-heading {
+  font-size: 50px;
+  color: #0997d3;
+  text-decoration: underline; }
+
+.about-section {
+  padding: 40px; }
+
+.home-section {
+  position: relative;
+  z-index: 2; }
+
+/*# sourceMappingURL=main.css.map */
